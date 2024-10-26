@@ -1,6 +1,9 @@
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
+---
+layout: post
+title:  "Chapter 3"
+date:   2024-10-26 11:29:08 
+categories: jekyll update
+---
 # Chapter 3
 ## Addition and Subtraction
 Two number with different signs can not occur overflow while operating addition.
