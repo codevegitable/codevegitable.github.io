@@ -38,17 +38,12 @@ theme:
   logo: assets/icon.png
   favicon: assets/icon.png
   features:
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.expand
-    - navigation.path
     - navigation.indexes
+    - navigation.expand
     - toc.follow
-    - toc.integrate 
     - navigation.top
     - search.suggest
     - search.highlight
@@ -91,7 +86,6 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
-  - statistics
   - termynal:
       title: ""
       buttons: macos
