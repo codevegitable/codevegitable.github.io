@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://codevegitable.github.io/</loc>
-         <lastmod>2024-11-12</lastmod>
+         <lastmod>2024-11-13</lastmod>
     </url>
     <url>
          <loc>https://codevegitable.github.io/blog/</loc>
-         <lastmod>2024-11-12</lastmod>
+         <lastmod>2024-11-13</lastmod>
     </url>
     <url>
-         <loc>https://codevegitable.github.io/blog/%E6%95%B0%E6%8D%AE%E5%AE%89%E5%85%A8%E4%B8%8E%E5%AF%86%E7%A0%81%E5%AD%A6%E5%9F%BA%E7%A1%80/</loc>
-         <lastmod>2024-11-12</lastmod>
+         <loc>https://codevegitable.github.io/cryption/</loc>
+         <lastmod>2024-11-13</lastmod>
     </url>
     <url>
-         <loc>https://codevegitable.github.io/blog/%E6%95%B0%E6%8D%AE%E5%AE%89%E5%85%A8%E4%B8%8E%E5%AF%86%E7%A0%81%E5%AD%A6%E5%9F%BA%E7%A1%80/C2/</loc>
-         <lastmod>2024-11-12</lastmod>
+         <loc>https://codevegitable.github.io/cryption/C2/</loc>
+         <lastmod>2024-11-13</lastmod>
     </url>
     <url>
-         <loc>https://codevegitable.github.io/blog/%E6%95%B0%E6%8D%AE%E5%AE%89%E5%85%A8%E4%B8%8E%E5%AF%86%E7%A0%81%E5%AD%A6%E5%9F%BA%E7%A1%80/C3/</loc>
-         <lastmod>2024-11-12</lastmod>
+         <loc>https://codevegitable.github.io/cryption/C3/</loc>
+         <lastmod>2024-11-13</lastmod>
     </url>
 </urlset>

@@ -6,16 +6,18 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="2024-11-13, codevegitable">
       
       
-        <link rel="canonical" href="https://codevegitable.github.io/blog/%E6%95%B0%E6%8D%AE%E5%AE%89%E5%85%A8%E4%B8%8E%E5%AF%86%E7%A0%81%E5%AD%A6%E5%9F%BA%E7%A1%80/C3/">
+      
+        <link rel="canonical" href="https://codevegitable.github.io/cryption/C3/">
       
       
         <link rel="prev" href="../C2/">
       
       
       
-      <link rel="icon" href="../../../assets/icon.png">
+      <link rel="icon" href="../../assets/icon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.44">
     
     
@@ -24,10 +26,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.0253249f.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -40,11 +42,21 @@
       
     
     
-      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+      <link rel="stylesheet" href="../../from_oi_wiki/css/extra.css?v=13">
+    
+      <link rel="stylesheet" href="../../css/status.css">
+    
+      <link rel="stylesheet" href="../../css/neoteroi-mkdocs.css">
+    
+      <link rel="stylesheet" href="../../termynal.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -88,7 +100,7 @@
   <nav class="md-header__inner md-grid" aria-label="页眉">
     <a href="https://codevegitable.github.io" title="codevegitable&#39;s 笔记" class="md-header__button md-logo" aria-label="codevegitable's 笔记" data-md-component="logo">
       
-  <img src="../../../assets/icon.png" alt="logo">
+  <img src="../../assets/icon.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -183,6 +195,18 @@
 </div>
     
     
+      <div class="md-header__source">
+        <a href="https://github.com/codevegitable/codevegitable.github.io" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    codevegitable/codevegitable.github.io
+  </div>
+</a>
+      </div>
+    
   </nav>
   
     
@@ -195,16 +219,19 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="../../.." class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
   
     
   
-  首页
+  主页
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -217,10 +244,12 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../" class="md-tabs__link">
+        <a href="../../blog/" class="md-tabs__link">
           
   
-  Blog
+    
+  
+  课程笔记
 
         </a>
       </li>
@@ -260,11 +289,23 @@
   <label class="md-nav__title" for="__drawer">
     <a href="https://codevegitable.github.io" title="codevegitable&#39;s 笔记" class="md-nav__button md-logo" aria-label="codevegitable's 笔记" data-md-component="logo">
       
-  <img src="../../../assets/icon.png" alt="logo">
+  <img src="../../assets/icon.png" alt="logo">
 
     </a>
     codevegitable's 笔记
   </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/codevegitable/codevegitable.github.io" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    codevegitable/codevegitable.github.io
+  </div>
+</a>
+    </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
     
@@ -274,16 +315,54 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../.." class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
-    首页
+    主页
   </span>
   
 
-      </a>
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            主页
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -297,6 +376,14 @@
   
   
     
+    
+      
+        
+          
+        
+      
+        
+      
     
     
       
@@ -313,45 +400,32 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
-            
-  
-  <span class="md-ellipsis">
-    Blog
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_2">
-            <span class="md-nav__icon md-icon"></span>
-            Blog
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../blog/" class="md-nav__link ">
               
-                
-  
-  
-  
-    
-  
-  
-    <li class="md-nav__item">
-      <a href="../../" class="md-nav__link">
-        
   
   <span class="md-ellipsis">
     课程笔记
   </span>
   
 
-      </a>
-    </li>
-  
-
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            课程笔记
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
               
             
               
@@ -363,6 +437,16 @@
   
   
     
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
     
     
       
@@ -376,16 +460,24 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
-            
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     数据安全与密码学基础
   </span>
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2">
@@ -394,25 +486,6 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    数据安全与密码学基础
-  </span>
-  
-
-      </a>
-    </li>
-  
-
               
             
               
@@ -599,7 +672,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#use-deduction-to-prove-construction-is-eav-security" class="md-nav__link">
+  <a href="#use-deduction-to-prove-construction-π-is-eav-security" class="md-nav__link">
     <span class="md-ellipsis">
       Use Deduction to Prove Construction Π is EAV-Security
     </span>
@@ -760,27 +833,6 @@
 
               
             
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    归档
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
           </ul>
         </nav>
       
@@ -802,20 +854,28 @@
                 
                   
 
+  
+  
 
-<h1 id="private-key-encryption">Private-Key Encryption</h1>
+
+<h1 id="private-key-encryption">Private-Key Encryption<a class="headerlink" href="#private-key-encryption" title="Permanent link">&para;</a></h1>
+<div style="margin-top: -30px; font-size: 0.75em; opacity: 0.7;">
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10h-2a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8zm6.78 1a.7.7 0 0 0-.48.2l-1.22 1.21 2.5 2.5L20.8 5.7c.26-.26.26-.7 0-.95L19.25 3.2c-.13-.13-.3-.2-.47-.2m-2.41 2.12L9 12.5V15h2.5l7.37-7.38z"/></svg></span> 约 4921 个字 <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20c4.42 0 8-3.58 8-8s-3.58-8-8-8-8 3.58-8 8 3.58 8 8 8m0-18c5.5 0 10 4.5 10 10s-4.5 10-10 10C6.47 22 2 17.5 2 12S6.5 2 12 2m.5 11H11V7h1.5v4.26l3.7-2.13.75 1.3z"/></svg></span> 预计阅读时间 16 分钟</p>
+</div>
 <hr />
-<h2 id="computational-security">Computational Security</h2>
+<h2 id="computational-security">Computational Security<a class="headerlink" href="#computational-security" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Background: Perfectly secrecy demands no messages leak from the ciphertext. But for practical purpose, an encryption scheme is still considered secure if it leaked information with some tiny probability to eavesdropper with bounded computational power.</li>
-<li>definition:</li>
+<li>definition:<ul>
 <li>take adversary's computational power limits into account.</li>
 <li>allow for a small probability that secure is violated.</li>
 <li>given enough time (or sufficient computational resources) an attacker may be able to violate the security.</li>
 <li>adversary can succeed with some very small probability.</li>
 </ul>
+</li>
+</ul>
 <p><strong>relaxtions of perfect secrecy: computational secrecy is (1) guaranteed only against effcient adversary, (2) secrecy may 'fail' with small probability.</strong></p>
-<h3 id="the-concrete-approach">The Concrete Approach</h3>
+<h3 id="the-concrete-approach">The Concrete Approach<a class="headerlink" href="#the-concrete-approach" title="Permanent link">&para;</a></h3>
 <ol>
 <li>definition: maximum success probability of an adversary running for some specified amount of time or investing some specified amount of computational effort. </li>
 <li>Form: A scheme is <strong>(t,ɛ)-secure</strong> if any adversary running for time at most t succeeds in breaking the scheme with probability at most ɛ.<br>
@@ -825,18 +885,22 @@
 </blockquote>
 </li>
 </ol>
-<h3 id="the-asymptotic-approach">The Asymptotic Approach</h3>
+<h3 id="the-asymptotic-approach">The Asymptotic Approach<a class="headerlink" href="#the-asymptotic-approach" title="Permanent link">&para;</a></h3>
 <ul>
-<li>security parameter(denoted by n): </li>
-<li>parties choose some value for the parameter(corresponding to the length of key)</li>
 <li>
-<p>running time for an adversary as well as its success probability, as functions of the security parameter rather than as fixed, concrete value.</p>
+<p>security parameter(denoted by n):</p>
+<ul>
+<li>parties choose some value for the parameter(corresponding to the length of key)</li>
+<li>running time for an adversary as well as its success probability, as functions of the security parameter rather than as fixed, concrete value.</li>
+</ul>
 </li>
 <li>
 <p>definition: </p>
-</li>
+<ul>
 <li>efficient adversary: with randomized algorithms running in time polynomial in n(the honestest parties run in polynomial time).</li>
 <li>"small probabilities of success"(negligible): with success probabilities smaller than any inverse polynomial in n.</li>
+</ul>
+</li>
 <li>Form(PPT for "probabilistic polynomial-time"): A scheme is <strong>secure</strong> if any PPT adversary succeeds in breaking the scheme with at most negligible probability.<blockquote>
 <p>example1: The security parameter n determines the time the adversary uses and probability. Increasing security also increases the time required to run the scheme, as well as the length of the key.<br></p>
 <p>example2: When the computational power improve, the honestest parties can also increase the security parameter so that makes adversary's job harder.</p>
@@ -845,7 +909,7 @@
 </ul>
 <p><strong>An asymptotic encryption can be translated into a concrete security bound for any desired value n.</strong></p>
 <ol>
-<li>efficient algorithms: </li>
+<li>efficient algorithms: <ul>
 <li>function f from natural numbers to the non-negative real numbers is polynomial if there is a constant c such that <span class="arithmatex">\(f(n) &lt; n^c\)</span> for all n.</li>
 <li>algorithm A runs in polynomial time if there exists a polynomial p such that for every input <span class="arithmatex">\(x \in \{0, 1\}^*\)</span>, the computation of A(x) terminates within at most p(|x|) steps.</li>
 <li>input can be security parameter and others such as message to be encrypted.</li>
@@ -855,7 +919,9 @@
 <li>randomization is practical and gives the attacker additional power.</li>
 </ul>
 </li>
-<li>negligible success probability: negligible function is one that is asymptotically smaller than any inverse polynomial function.</li>
+</ul>
+</li>
+<li>negligible success probability: negligible function is one that is asymptotically smaller than any inverse polynomial function.<ul>
 <li>definition: function f from the natural numbers to non-negative real numbers is negligible if for every polynomial p there is an N such that for all n &gt; N it holds that <span class="arithmatex">\(f(n) &lt; \frac{1}{p(n)}\)</span>.</li>
 <li>obey closure properties:<ul>
 <li><span class="arithmatex">\(negl_3(n) = negl_1(n) + negl_2(n)\)</span></li>
@@ -863,40 +929,48 @@
 </ul>
 </li>
 <li>'n &gt; N' defines that n is big enough. While <span class="arithmatex">\(n \leq N\)</span>, nothing is guaranteed.</li>
-<li>advantages of polynomial time algorithms:</li>
+</ul>
+</li>
+<li>advantages of polynomial time algorithms:<ul>
 <li>free us from having to specify our model of computation precisely.</li>
 <li>satisfy the desirable closure properties.</li>
+</ul>
+</li>
 </ol>
 <blockquote>
 <p>nesscity of relaxtion: for an adversary who can attack with known-plaintext attack(it means |M| &gt; |K|), then the adversary can learn ciphertexts <span class="arithmatex">\(c_1, c_2, ...\)</span> corresponding to messages <span class="arithmatex">\(m_1, m_2, ...\)</span> repectively. So the adversary can guess the key using brute force attack, and the adversary can succeed only in probability 1/|K| because the K space is |K| and the adversary doesn't know the key.</p>
 <p>the adversary can succeed with time O(|K|), but |K| is large enough.</p>
 </blockquote>
 <hr />
-<h2 id="computational-security-encryption">Computational Security Encryption</h2>
+<h2 id="computational-security-encryption">Computational Security Encryption<a class="headerlink" href="#computational-security-encryption" title="Permanent link">&para;</a></h2>
 <ul>
 <li>redefine the syntax of private-key encryption, now we take into account the security parameter n.</li>
 <li>allow the encryption output an error.</li>
 <li>let the message space be the set <span class="arithmatex">\(\{0, 1\}^*\)</span> of all binary strings by default.</li>
-<li>definition: consists of three probabilistic polynomial-time algorithms (Gen, Enc, Dec) such that:</li>
+<li>definition: consists of three probabilistic polynomial-time algorithms (Gen, Enc, Dec) such that:<ul>
 <li>Gen takes as input <span class="arithmatex">\(1^n\)</span>(the security parameter written in unary). Gen is a <strong>rondomized algorithm</strong>. We assume that <strong>without loss of generality that any key k output by <span class="arithmatex">\(Gen(1^n)\)</span> satisfies |k| &gt; n</strong>.</li>
 <li>Enc takes an input k and a plaintext message <span class="arithmatex">\(m \in \{0, 1\}^*\)</span>, and output a ciphertext c. Enc algorithm is <strong>randomized</strong>.</li>
 <li>Dec takes an input k and ciphertext c, and outputs <strong>a message <span class="arithmatex">\(m \in \{0, 1\}^*\)</span> or an error</strong>. Denote a generic <strong>error by the symbol ⊥</strong>(assume Dec is a deterministic algorithm).</li>
 <li>If (Gen, Enc, Dec) is such that for k output by <span class="arithmatex">\(Gen(1^n)\)</span>, algorithm <span class="arithmatex">\(Enc_k\)</span> is only defined for messages <span class="arithmatex">\(m \in \{0, 1\}^{l(n)}\)</span>, then we say that (Gen, Enc, Dec) is a <strong>fixed-length private-key encryption scheme for messages of length l(n).</strong></li>
 </ul>
-<h3 id="the-basic-definition-of-security-eav-security">The Basic Definition of Security (EAV-Security)</h3>
+</li>
+</ul>
+<h3 id="the-basic-definition-of-security-eav-security">The Basic Definition of Security (EAV-Security)<a class="headerlink" href="#the-basic-definition-of-security-eav-security" title="Permanent link">&para;</a></h3>
 <p><strong>security against a ciphertext attack adversary only observe a single cipertext or security when a giver key is used to encrypt just a single message.</strong></p>
-<p>New <span class="arithmatex">\(PrivK^{eav}_{A, Π}(n)\)</span>: 
-   1. adversaries running in polynomial time instead of unbounded running time.
-   2. adversaries determine the encrypted message with probability negligibly better than 1/2.
-   3. explicitly require the adversaries output two messages <span class="arithmatex">\(m_0, m_1\)</span> of equal length(no need a secure encryption scheme to hide the length of plaintext).</p>
+<p>New <span class="arithmatex">\(PrivK^{eav}_{A, Π}(n)\)</span>:<br> 
+  1. adversaries running in polynomial time instead of unbounded running time.
+  2. adversaries determine the encrypted message with probability negligibly better than &frac12;.
+  3. explicitly require the adversaries output two messages <span class="arithmatex">\(m_0, m_1\)</span> of equal length(no need a secure encryption scheme to hide the length of plaintext).</p>
 <ul>
-<li>Indistinguishablility in the presence of an eavesdropper: </li>
+<li>Indistinguishablility in the presence of an eavesdropper: <ol>
 <li>The adversary A is given input <span class="arithmatex">\(1^n\)</span>, and outputs a pair of messages <span class="arithmatex">\(m_0, m_1 \in \{0, 1\}^{l(n)}\)</span>, with the same length.</li>
 <li>K is generated by running <span class="arithmatex">\(Gen(1^n)\)</span>, and a uniform bit <span class="arithmatex">\(b \in \{0, 1\}\)</span> is chosen. Ciphertext <span class="arithmatex">\(c(challenge\ ciphertext) ← Enc(m_b)\)</span> is computed and given to A.</li>
 <li>A outputs a bit <span class="arithmatex">\(b'\)</span>.</li>
 <li>The result is 1 if b = b', and 0 otherwise. <span class="arithmatex">\(PrivK^{eav}_{A, Π}(n) = 1\)</span> means A succeeds.
 <br>
   <strong>Definition</strong>: A private-key encryption scheme <span class="arithmatex">\(Π = (Gen, Enc, Dec)\)</span> has <strong>indistinguishablility in the presence of an eavesdropper(EAV secure)</strong>, if for all PPT adversaries there is a negligible function that, for all n:(randomness of A, choose of b and k, and Enc, .etc)</li>
+</ol>
+</li>
 </ul>
 <div class="arithmatex">\[
 Pr[PrivK^{eav}_{A, Π}(n) = 1] ≤ 1/2 + negl(n)
@@ -906,18 +980,18 @@ Pr[PrivK^{eav}_{A, Π}(n) = 1] ≤ 1/2 + negl(n)
   <br>
    Definition: A private-key encryption scheme has <strong>indistinguishablility in the presence of an eavesdropper(EAV secure)</strong> if for all PPT adversaries A there is a negligible function negl such that:
    $$
-   |Pr[out_A(PrivK^{eav}<em>{A, Π}(n, 1))=1] - Pr[out_A(PrivK^{eav}</em>{A, Π}(n, 0))=1]| ≤ negl(n)
+   |Pr[out_A(PrivK^{eav}<em A_="A," Π="Π">{A, Π}(n, 1))=1] - Pr[out_A(PrivK^{eav}</em>(n, 0))=1]| ≤ negl(n)
    $$</li>
 </ul>
-<h4 id="revealing-the-plaintext-length">Revealing the Plaintext Length</h4>
+<h4 id="revealing-the-plaintext-length">Revealing the Plaintext Length<a class="headerlink" href="#revealing-the-plaintext-length" title="Permanent link">&para;</a></h4>
 <p>Although EAV-secure doesn't hidden the length of plaintext, but sometimes the length of plaintext can leak some information.</p>
 <p>So for the condition length can leak the information, we need to mitigate or prevent such leakage by padding all messages to some pre-determined length before encrypting them.</p>
-<h3 id="semantic-security">Semantic Security</h3>
+<h3 id="semantic-security">Semantic Security<a class="headerlink" href="#semantic-security" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Definition: ciphertext leak no information about individual bits of the plaintext. It means for an EVA security scheme, for any i it is infeasible for an attacker given the ciphertext to guess the <span class="arithmatex">\(i_{th}\)</span> bit of m with probability much better than 1/2.</li>
+<li>Definition: ciphertext leak no information about individual bits of the plaintext. It means for an EVA security scheme, for any i it is infeasible for an attacker given the ciphertext to guess the <span class="arithmatex">\(i_{th}\)</span> bit of m with probability much better than &frac12;.</li>
 <li>Theorem: Let Π = (Enc, Dec) be a fixed-length private-key encryption scheme for messages of length l that is EAV-secure. Then for all PPT adversaries A and <span class="arithmatex">\(i \in \{1, ..., l\}\)</span>, there is a negligible function negl such that (randomness of A and Enc)
 $$
-Pr[A(1^n, Enc(m)) = m^i] ≤ 1/2 + negl(n),
+Pr[A(1^n, Enc(m)) = m^i] ≤ &frac12; + negl(n),
 $$<blockquote>
 <p>Hint: use <span class="arithmatex">\(Pr[PrivK^{eav}_{A, Π}(n) = 1] = Pr[A(1^n, Enc_k(m_b)) = b]\)</span> to proof.</p>
 </blockquote>
@@ -945,33 +1019,39 @@ $$</li>
 <li>Theorem: A private-key encryption scheme has a indistinguishable encryption in the presence of an eavesdropper (EVA-secure) if and only if it is semantically secure in the presence of an eavesdropper.</li>
 </ul>
 <hr />
-<h2 id="constructing-an-eav-secure-encryption-scheme">Constructing an EAV-secure Encryption Scheme</h2>
-<h3 id="pseudorandom-generators-prg">Pseudorandom Generators (PRG)</h3>
+<h2 id="constructing-an-eav-secure-encryption-scheme">Constructing an EAV-secure Encryption Scheme<a class="headerlink" href="#constructing-an-eav-secure-encryption-scheme" title="Permanent link">&para;</a></h2>
+<h3 id="pseudorandom-generators-prg">Pseudorandom Generators (PRG)<a class="headerlink" href="#pseudorandom-generators-prg" title="Permanent link">&para;</a></h3>
 <p>Pseudorandom generator use a small true randomness in order to generate a amount of pseudorandom.And pseudorandomness is a property of the distribution of the string, it is different from the uniform string. </p>
 <p>Pseudorandom is a relaxtion of true randomness.</p>
 <ul>
-<li>Definition: Let G be a deterministic polynomial-time algorithm such that for any n and input <span class="arithmatex">\(s \in \{0, 1\}^n\)</span>, the result of G(s) is a string of length l(n)(expansion factor of G). G is a pseudorandom generator if the following conditions holds:</li>
+<li>Definition: Let G be a deterministic polynomial-time algorithm such that for any n and input <span class="arithmatex">\(s \in \{0, 1\}^n\)</span>, the result of G(s) is a string of length l(n)(expansion factor of G). G is a pseudorandom generator if the following conditions holds:<ul>
 <li>Expansion: for every n l(n) &gt; n</li>
 <li>Pseudorandomness: for any PPT adversaries D, there is a negligible function that
    $$
-   |Pr[D(G(s)) = 1] - Pr[D(r) = 1]| &lt;= negl(n)
+   |Pr[D(G(s)) = 1] - Pr[D&reg; = 1]| &lt;= negl(n)
    $$
    where G(s) is pseudorandom and r is a random string whose length is l(n).</li>
-<li>Reduction(reduce the security level): A attack the security -&gt; A' solve the mathematic problem X. If A break the security, then A' can solve the X by a parameter x.</li>
+</ul>
+</li>
+<li>Reduction(reduce the security level): A attack the security -&gt; A' solve the mathematic problem X. If A break the security, then A' can solve the X by a parameter x.<ol>
 <li>Fix some efficient attacker A attacking Π. Denote this adversary's success probability by ɛ(n)</li>
 <li>Construct an efficient algorithm A' that attempts to solve the problem X by using adversary A as a subroutine (A' knows nothing about how A works; the only thing A' knows is that A is expecting to attack Π). A' can solve the problem by x with the inverse polynomial probability 1/p(n).</li>
 <li>So A' solves the problem with the probability ɛ(n)/p(n). If ɛ(n) is not negligible then neither is ɛ(n)/p(n). So A is efficient then we obtain an efficient algorithm A' solving X with non-negligible probability, contradicting with the "very hard mathematic problem".</li>
 <li>So no efficient A can break the security scheme Π. Π is computable security.</li>
+</ol>
+</li>
 </ul>
-<h3 id="eva-security-from-a-pseudorandom-generatorind-eav">EVA-Security from a Pseudorandom Generator(IND-EAV)</h3>
+<h3 id="eva-security-from-a-pseudorandom-generatorind-eav">EVA-Security from a Pseudorandom Generator(IND-EAV)<a class="headerlink" href="#eva-security-from-a-pseudorandom-generatorind-eav" title="Permanent link">&para;</a></h3>
 <p>Use a pesudo-one-time pad to encrypt a message, and a computable bounded adversary can not distinguish it from true random one-time pad.</p>
 <ul>
 <li>Theorem: If G is a pseudorandom generator, then <strong>construction Π: <span class="arithmatex">\(Gen(1^n), Enc, Dec\)</span>, and applying the algorithm G to the key in order to XOR with the plaintext</strong>, is an EVA-security, fixed length private-key encryption scheme for message of length l(n).</li>
-<li>The new role distinguisher D: D takes a string w as input, and whose goal is to determine wether w was chosen uniformly or generated by choosing a uniformly k and computing w = G(k).</li>
+<li>The new role distinguisher D: D takes a string w as input, and whose goal is to determine wether w was chosen uniformly or generated by choosing a uniformly k and computing w = G(k).<ul>
 <li>Run <span class="arithmatex">\(A(1^n)\)</span> to obtain a pair of messages <span class="arithmatex">\(m_0, m_1 \in \{0, 1\}^{l(n)}\)</span>.</li>
 <li>Choose a uniform bit <span class="arithmatex">\(b \in \{0, 1\}\)</span>. Set <span class="arithmatex">\(c := w \oplus m_b\)</span></li>
 <li>Give c to A and obtain an output b'. Output 1 if b' = b, and output 0 otherwise.
    And D observes A's result. If A wins, the D guess w must be a pseudorandom string, otherwise w is a random string.</li>
+</ul>
+</li>
 </ul>
 <hr />
 <p>Construction 3.17:
@@ -987,32 +1067,32 @@ m := G(k) \oplus c
 $$</p>
 <hr />
 <blockquote>
-<h4 id="use-deduction-to-prove-construction-is-eav-security">Use Deduction to Prove Construction Π is EAV-Security</h4>
+<h4 id="use-deduction-to-prove-construction-π-is-eav-security">Use Deduction to Prove Construction Π is EAV-Security<a class="headerlink" href="#use-deduction-to-prove-construction-π-is-eav-security" title="Permanent link">&para;</a></h4>
 <p>Here is to show how to use reduction to prove.
-Assume that we have a distinguisher D, and a PPT adversary just like the former. We all know that when the security is one time pad, then:
+Assume that we have a distinguisher D, and a PPT adversary just like the former. We all know that when the security is one time pad, then
 $$
-Pr[PrivK^{eav}<em>{A, Π}(n) = 1] = \frac{1}{2}
+Pr[PrivK^{eav}<em 1_125_l_n_="1}^{l(n)" w_123_0_="w←{0,">{A, Π}(n) = 1] = \frac{1}{2}
 $$
 Now we analyse the behaviour of D:
 1. If w is chosen from <span class="arithmatex">\(\{0, 1\}^{l(n)}\)</span>, then the probability D wins is identical to A wins, because we have mentioned that D observes A's result to select output, so the reverse polynomial 1/p(n) = 1. So we have the equavalence as follows:
 $$
-Pr</em>{w←{0, 1}^{l(n)}}[D(w) = 1] = Pr[PrivK^{eav}<em>{A, Π}(n) = 1] = \frac{1}{2}
+Pr</em>}}[D(w) = 1] = Pr[PrivK^{eav<em 1_125_n="1}^n" k_123_0_="k←{0,">{A, Π}(n) = 1] = \frac{1}{2}
 $$
 2. If a k is generated by <span class="arithmatex">\(Gen(1^n)\)</span> and then setting <span class="arithmatex">\(w:=G(k)\)</span>, and the new secutiry scheme is <span class="arithmatex">\(\widetilde{Π}\)</span>, so the following equavalence is trival:
 $$
-Pr</em>{k←{0, 1}^n}[D(G(n)) = 1] = Pr[PrivK^{eav}<em>{A, \widetilde{Π}}(n) = 1]
+Pr</em>}[D(G(n)) = 1] = Pr[PrivK^{eav<em 1_125_n="1}^n" k_123_0_="k←{0,">{A, \widetilde{Π}}(n) = 1]
 $$
 Since G is pseudorandom generator, so there is a negligible function:
 $$
-|Pr</em>{k←{0, 1}^n}[D(G(n)) = 1] - Pr_{w←{0, 1}^{l(n)}}[D(w) = 1]| ≤ negl(n) \
+|Pr</em>[D(w) = 1]| ≤ negl(n) \
 |Pr_{k←{0, 1}^n}[D(G(n)) = 1] - \frac{1}{2}| ≤ negl(n)\
 Pr_{k←{0, 1}^n}[D(G(n)) = 1] ≤ negl(n) + \frac{1}{2} → Pr[PrivK^{eav}_{A, \widetilde{Π}}(n) = 1] ≤ negl(n) + \frac{1}{2}
-$$</p>
-<p>So it is a EVA-security.</p>
-<h4 id="concrete-security">Concrete Security</h4>
+$$
+So it is a EVA-security.}[D(G(n)) = 1] - Pr_{w←{0, 1}^{l(n)}</p>
+<h4 id="concrete-security">Concrete Security<a class="headerlink" href="#concrete-security" title="Permanent link">&para;</a></h4>
 <p>We can adapt it by concrete security instead of asymptotic security. Assume G is a (t, ɛ)-pseudorandom (for the given value n to ensure t and ɛ are constant), so for all distinguishers D we have that
 $$
-|Pr[D(G(s)) = 1] - Pr[D(r)=1]| ≤ ɛ
+|Pr[D(G(s)) = 1] - Pr[D&reg;=1]| ≤ ɛ
 $$
 Assume Π is (t - t', ɛ)-secure (t' is a small constant) for a PPT adversary A, A running for at most t-t' time (D is slower than A a little and t' is to ensure D is limited in t time), we have that:
 $$
@@ -1020,15 +1100,17 @@ Pr[PrivK^{eva}_{A, Π} = 1] ≤ \frac{1}{2} + ɛ
 $$ </p>
 </blockquote>
 <hr />
-<h2 id="stronger-security-notions">Stronger Security Notions</h2>
-<h3 id="security-for-multiple-encryptions">Security for Multiple Encryptions</h3>
+<h2 id="stronger-security-notions">Stronger Security Notions<a class="headerlink" href="#stronger-security-notions" title="Permanent link">&para;</a></h2>
+<h3 id="security-for-multiple-encryptions">Security for Multiple Encryptions<a class="headerlink" href="#security-for-multiple-encryptions" title="Permanent link">&para;</a></h3>
 <p>Slove the question that the communicating parties send multiple messages using the same key.</p>
 <ul>
-<li>The multiple-message eavesdropping experiment <span class="arithmatex">\(PrivK^{mult}_{A, Π}(n)\)</span>:</li>
+<li>The multiple-message eavesdropping experiment <span class="arithmatex">\(PrivK^{mult}_{A, Π}(n)\)</span>:<ol>
 <li>The adversary A is given input <span class="arithmatex">\(1^n\)</span>, and outputs a pair of equal-length lists of messages <span class="arithmatex">\(\vec{M_0} = (m_{0, 1}, ..., m_{0, t})\)</span> and <span class="arithmatex">\(\vec{M_1} = (m_{1, 1}, ..., m_{1, t})\)</span>, with <span class="arithmatex">\(|m_{0, t}| = |m_{1, t}|\)</span> for all i.</li>
 <li>A key K is generated by running <span class="arithmatex">\(Gen(1^n)\)</span>, and a uniform bit <span class="arithmatex">\(b \in \{0, 1\}\)</span> is chosen. For all i, the ciphertext <span class="arithmatex">\(c_i \leftarrow Enc_k(m_{b,i})\)</span> is computed and the list <span class="arithmatex">\(\vec{C} = (c_1, ..., c_t)\)</span> is given to A.</li>
 <li>A outputs a bit b'.</li>
 <li>The output of the experiment is defined to be 1 if b'=b, and 0 otherwise.</li>
+</ol>
+</li>
 <li>
 <p>Definition: indistinguishable multiple encryptions in the presence of an eavesdropper if for all PPT A:
 $$
@@ -1048,23 +1130,23 @@ $$</p>
 <p>Theorem: If Π is a encryption scheme which Enc is a <strong>deterministic</strong> function, then Π <strong>can not have indistinguishable multiple encryptions in the presence of an eavesdropper</strong>.</p>
 </li>
 </ul>
-<h3 id="chosen-plaintext-attacks-and-cpa-security">Chosen-Plaintext Attacks and CPA-Security</h3>
+<h3 id="chosen-plaintext-attacks-and-cpa-security">Chosen-Plaintext Attacks and CPA-Security<a class="headerlink" href="#chosen-plaintext-attacks-and-cpa-security" title="Permanent link">&para;</a></h3>
 <ul>
 <li>CPA-security: we model chosen-plaintext attacks by giving the adversary A access to an encryption oracle, viewed as a "black box" that encrypts messages of A's choice using a key that is unknown to A. The adversary can interact with the encryption oracle adaptively, as many as times it likes.
-$$
-PrivK^{cpa}_{A, Π}(n):
-$$</li>
+    <span class="arithmatex">\(PrivK^{cpa}_{A, Π}(n)\)</span>:<ol>
 <li>A key k is generated by running <span class="arithmatex">\(Gen(1^n)\)</span></li>
 <li>The adversary A is given input <span class="arithmatex">\(1^n\)</span> and oracle access to Enc(·), and outputs a pair of messages <span class="arithmatex">\(m_0, m_1\)</span> of the same length.</li>
 <li>A uniform bit <span class="arithmatex">\(b \in \{0, 1\}\)</span> is chosen, and then a ciphertext <span class="arithmatex">\(c \leftarrow Enc_k(m_b)\)</span> is computed and given to A.</li>
 <li>The adversary A continues to have oracle access to <span class="arithmatex">\(Enc_k(·)\)</span>, and outputs a bit b'.</li>
 <li>The output of the experiment is defined to be 1 if b'=b, and 0 otherwise</li>
+</ol>
+</li>
 <li>Definition: A private-key encryption scheme <span class="arithmatex">\(Π=(Gen, Enc, Dec)\)</span> has indistinguishable encryption under a chosen-plaintext attack, or is CPA-secure, if for all probabilistic polynomial-time adversaries A there is a negligible function negl such that
 $$
 Pr[PrivK^{cpa}_{A, Π}(n) = 1] \leq \frac{1}{2} + negl(n)
 $$</li>
 </ul>
-<h3 id="cpa-security-for-multiple-encryptions">CPA-Security for Multiple Encryptions</h3>
+<h3 id="cpa-security-for-multiple-encryptions">CPA-Security for Multiple Encryptions<a class="headerlink" href="#cpa-security-for-multiple-encryptions" title="Permanent link">&para;</a></h3>
 <p>Give the attacker access to a "left-to-right" oracle <span class="arithmatex">\(LR_{k,b}\)</span>, on input a pair of messages <span class="arithmatex">\(m_0, m_1\)</span>, computes the ciphertext <span class="arithmatex">\(c \leftarrow Enc_k(m_b)\)</span> and returns c. If b=0 then the adversary recieves an encryption of the "left" plaintext, and otherwise "right" plaintext.</p>
 <div class="arithmatex">\[
 PrivK^{LR-cpa}_{A, Π}(n):
@@ -1084,8 +1166,8 @@ Pr[PrivK^{LR-cpa}_{A, Π}(n) = 1] \leq negl(n) + \frac{1}{2}
 </blockquote>
 </li>
 </ul>
-<h2 id="constructing-a-cpa-secure-encryption-scheme">Constructing a CPA-Secure Encryption Scheme</h2>
-<h3 id="pseudorandom-functions-and-permutations">Pseudorandom Functions and Permutations</h3>
+<h2 id="constructing-a-cpa-secure-encryption-scheme">Constructing a CPA-Secure Encryption Scheme<a class="headerlink" href="#constructing-a-cpa-secure-encryption-scheme" title="Permanent link">&para;</a></h2>
+<h3 id="pseudorandom-functions-and-permutations">Pseudorandom Functions and Permutations<a class="headerlink" href="#pseudorandom-functions-and-permutations" title="Permanent link">&para;</a></h3>
 <p>(全是痛苦的大段英文描述())
 Pseudorandom functions (PRFs) generalize the notion of pseudorandom generators. We must consider the pseudorandomness of a distribution on functions. Such a distribution is induced natrually by considering keyed functions, defined next.</p>
 <p>A keyed function F: <span class="arithmatex">\(\{0, 1\}^* \times \{0, 1\}^* \rightarrow \{0, 1\}^*\)</span> is two-input function, where the first input is called the key and typically called k. We say F is efficient if there is polynomial-time algorithm that computes F(k, x) given k and x. n is the secure parameter</p>
@@ -1117,7 +1199,7 @@ Pseudorandom functions (PRFs) generalize the notion of pseudorandom generators. 
 <ul>
 <li>Definition: An efficient, length preserving, keyed function <span class="arithmatex">\(F : \{0, 1\}^* \times \{0, 1\}^* \rightarrow \{0, 1\}^*\)</span> is a pseudorandom function if for all PPT distinguisher D, there is negligible function negl such that:
 $$
-|Pr[D^{F_k(·)}(1^n)=1] - Pr[D^{f(·)}(1^n)=1]| \leq negl(n)
+|Pr[D<sup>{F_k(·)}(1</sup>n)=1] - Pr[D<sup>{f(·)}(1</sup>n)=1]| \leq negl(n)
 $$</li>
 </ul>
 <blockquote>
@@ -1139,11 +1221,11 @@ For example: <span class="arithmatex">\(G(s) \overset{\text{def}}= F_s(1)||F_s(2
 <p>Strong Pseudorandom Permutations: As above, when given a oracle, it is possible for distinguisher D queries all function to find the difference between <span class="arithmatex">\(F_k\)</span> and uniformly f.
   <strong>Definition</strong>: Let <span class="arithmatex">\(F : \{0, 1\}^* \times \{0, 1\}^* \rightarrow \{0, 1\}^*\)</span> be an efficient, length preserving, keyed permutation. F is a strong pseudorandomp permutation if for all probabilistic polynomial-time distinguishers D, there exists a negligible function negl:
   $$
-  |Pr[D^{F_k(·), F_k^{-1}(·)}(1^n) = 1] - Pr[D^{f_k(·),f_k^{-1}(·)}(1^n) = 1]| \leq negl(n)
-  $$</p>
+  |Pr[D^{F_k(·), F_k<sup>{-1}(·)}(1</sup>n) = 1] - Pr[D<sup -1="-1">{f_k(·),f_k</sup>(1^n) = 1]| \leq negl(n)
+  $$}(·)</p>
 </li>
 </ul>
-<h3 id="cpa-security-from-a-pseudorandom-functionind-cpa">CPA-Security from a Pseudorandom Function(IND-CPA)</h3>
+<h3 id="cpa-security-from-a-pseudorandom-functionind-cpa">CPA-Security from a Pseudorandom Function(IND-CPA)<a class="headerlink" href="#cpa-security-from-a-pseudorandom-functionind-cpa" title="Permanent link">&para;</a></h3>
 <p>Because Pseudorandom Function is a deterministic algorithm, if we use "<span class="arithmatex">\(Enc_k(m) = F_k(m)\)</span>", it is not CPA-secure since encryption the same plaintext twice will yield the same ciphertext.</p>
 <p>We can apply the pseudorandom function to a random value r and XORing the output with the plaintext. So encryption can be viewed as XORing a pseudorandom pad with the plaintext, with the major difference being the fact that here a fresh pseudorandom pad-that depends on r-is used ench time a message is encrypted (pseudorandom function has <strong>never been evaluated</strong>).</p>
 <p>This mode has the property that the <strong>ciphertext is longer than the plaintext</strong>.</p>
@@ -1160,7 +1242,7 @@ c := <r, F_k(r) \oplus m>
 $$
 + Dec: on input a k and a ciphertext <span class="arithmatex">\(c = &lt;r, s&gt;\)</span>, output the message
 $$
-m := F_k(r) \oplus s
+m := F_k&reg; \oplus s
 $$</p>
 <hr />
 <ul>
@@ -1169,20 +1251,20 @@ $$</p>
 <blockquote>
 <p>Proof: 等我看懂了再写()（与其说没看懂不如说还没来得及看()）</p>
 </blockquote>
-<h2 id="modes-of-operation-and-encryption-in-practice">Modes of Operation and Encryption in Practice</h2>
+<h2 id="modes-of-operation-and-encryption-in-practice">Modes of Operation and Encryption in Practice<a class="headerlink" href="#modes-of-operation-and-encryption-in-practice" title="Permanent link">&para;</a></h2>
 <p>Solve the question pseudorandom function for CPA that the length of the ciphertext is constant multiple of the plaintext and pseudorandom generator for EAV that the message length must to be fixed length.</p>
-<h3 id="stream-ciphers">Stream Ciphers</h3>
+<h3 id="stream-ciphers">Stream Ciphers<a class="headerlink" href="#stream-ciphers" title="Permanent link">&para;</a></h3>
 <p>When we use pseudorandom generator G in EAV, it is not easy to encrypt the message whose length is longer than the expansion factor, and it is wasted when we encrypt the message whose length is shorter than expansion factor.</p>
 <p>Stream Ciphers is used to instantiate pseudorandom generators, provide greater flexibility. </p>
 <p>A stream cipher is a pair of <strong>deterministic algorithms</strong>:
 1. <strong>Init</strong> takes as input a seed s and an optional initialization vector IV, and outputs some initial state st.
 2. <strong>Next</strong> takes as input a current state st and outputs a bit y along with updated state st'.
 3. We difine an algorithm <strong>GetBits</strong> that takes as input an initial state <span class="arithmatex">\(st_0\)</span> and a desired output length <span class="arithmatex">\(1^l\)</span>(specified in unary, since GetBits runs in time linear in l):
-   1. For i = 1 to l, compute <span class="arithmatex">\((y_i, st_i) := Next(st_{i-1})\)</span>.
-   2. Return the l-bit string <span class="arithmatex">\(y = y_1...y_l\)</span> as well as the final state <span class="arithmatex">\(st_l\)</span>.
+    1. For i = 1 to l, compute <span class="arithmatex">\((y_i, st_i) := Next(st_{i-1})\)</span>.
+    2. Return the l-bit string <span class="arithmatex">\(y = y_1...y_l\)</span> as well as the final state <span class="arithmatex">\(st_l\)</span>.
  <span class="arithmatex">\(<span class="arithmatex">\(st_0 \rightarrow (y_1, st_1) \overset{st_1}{\rightarrow} (y_2, st_2) \overset{st_2}{\rightarrow} ... \overset{st_{n-1}}{\rightarrow} (y_n, st_n)\)</span>\)</span></p>
-<pre><code>  We let $GetBits_1$ be the algorithm that runs GetBits and only returns its initial output(the l-bit y).
-</code></pre>
+<div class="language-text highlight"><pre><span></span><code>  We let $GetBits_1$ be the algorithm that runs GetBits and only returns its initial output(the l-bit y).
+</code></pre></div>
 <p>Without the IV, stream cipher is just a pseudorandom generator that is more reflexible. Define a deterministic <span class="arithmatex">\(G^l\)</span>:
    <span class="arithmatex">\(<span class="arithmatex">\(G^l(s) = GetBits_1(Init(s), 1^l)\)</span>\)</span></p>
 <p>A stream cipher takes an IV can be defined in multiple ways. We define security in this case a pseudorandom function. 
@@ -1193,9 +1275,11 @@ $$</p>
 <p>Stream cipher typically do not support arbitrary values of n, but work only for some fixed values of n. So concrete definition is more approriate.</p>
 </blockquote>
 <ul>
-<li>Constructing stream ciphers from pseudorandom functions:</li>
+<li>Constructing stream ciphers from pseudorandom functions:<ul>
 <li>use the seed s for the stream cipher as a key for F, </li>
 <li>evaluate <span class="arithmatex">\(F_s\)</span> on a sequence of consecutive inputs starting from a value determined by IV.</li>
+</ul>
+</li>
 </ul>
 <hr />
 <p>Construction 3.30</p>
@@ -1203,17 +1287,19 @@ $$</p>
 + Init: on input <span class="arithmatex">\(s \in \{0, 1\}^n\)</span> and <span class="arithmatex">\(IV \in \{0, 1\}^{3n/4}\)</span>, output st = (s, IV, 0)
 + Next: on input st = (s, IV, i), output <span class="arithmatex">\(y := F_s(IV||&lt;i&gt;)\)</span> and updated state st' = (s, IV, i + 1)</p>
 <hr />
-<h3 id="stream-cipher-modes-of-operation">Stream-Cipher Modes of Operation</h3>
+<h3 id="stream-cipher-modes-of-operation">Stream-Cipher Modes of Operation<a class="headerlink" href="#stream-cipher-modes-of-operation" title="Permanent link">&para;</a></h3>
 <ul>
-<li><strong>Synchronized mode</strong>: </li>
+<li>
+<p><strong>Synchronized mode</strong>: </p>
+<ol>
 <li>Both parties call Init(k) to obtain the same initial state <span class="arithmatex">\(st_0\)</span></li>
 <li>Let <span class="arithmatex">\(st_S\)</span> be the current state of S (sender). If S wants to encrypt the message m, it computes <span class="arithmatex">\((y,st'_S) := GetBits(st_S, 1^{|m|})\)</span> (st' is the final state and y is the message encrypted), sends <span class="arithmatex">\(c := m \oplus y\)</span> to the reciever, and updates its local state to <span class="arithmatex">\(st'_S\)</span></li>
-<li>
-<p>Let <span class="arithmatex">\(st_R\)</span> be the current state of reciever R. When R recieves the ciphertext c from the sender, it computes <span class="arithmatex">\((y, st'_R) = GetBits(st_R, 1^{|c|})\)</span>, outputs the message <span class="arithmatex">\(m := c \oplus y\)</span>, and updates its own local state.</p>
-<blockquote>
+<li>Let <span class="arithmatex">\(st_R\)</span> be the current state of reciever R. When R recieves the ciphertext c from the sender, it computes <span class="arithmatex">\((y, st'_R) = GetBits(st_R, 1^{|c|})\)</span>, outputs the message <span class="arithmatex">\(m := c \oplus y\)</span>, and updates its own local state.<blockquote>
 <p>The two parties can achieve the bidirectional communication after sending the first key.
 Mention that the above stream cipher has no ciphertext expansion, and need no IV. It is a stateful mode which need to store the final state.</p>
 </blockquote>
+</li>
+</ol>
 </li>
 <li>
 <p><strong>Unsynchronized mode</strong>: Use IV can construct a stateless encryption scheme that is analogous to Construction 3.28. The main advantage is that encryption scheme directly handles arbitrary-length messages.</p>
@@ -1224,11 +1310,15 @@ Mention that the above stream cipher has no ciphertext expansion, and need no IV
 <p>Let (Init, Next) be a stream cipher that takes an n-bit IV. Define a private-key encryption scheme for arbitrary-length messages as follows:
 + Gen: on input <span class="arithmatex">\(1^n\)</span>, choose a uniform <span class="arithmatex">\(k \in \{0, 1\}^n\)</span> and output k.
 + Enc: on input key and message <span class="arithmatex">\(m \in \{0, 1\}^*\)</span>, choose uniform <span class="arithmatex">\(IV \in \{0, 1\}^n\)</span>, and output the ciphertext
-<span class="arithmatex">\(<span class="arithmatex">\(&lt;IV, GetBits_1(Init(k,IV), 1^{|m|}) \oplus m&gt;\)</span>\)</span>
+$$
+<IV, GetBits_1(Init(k,IV), 1^{|m|}) \oplus m>
+$$
 + Dec: on input a key and ciphertext <span class="arithmatex">\(&lt;IV, c&gt;\)</span>, output the message
-<span class="arithmatex">\(<span class="arithmatex">\(m := GetBits_1(Init(k, IV), 1^{|c|}) \oplus c\)</span>\)</span></p>
+$$
+m := GetBits_1(Init(k, IV), 1^{|c|}) \oplus c
+$$</p>
 <hr />
-<h3 id="block-ciphers-and-block-cipher-modes-of-operation">Block Ciphers and Block-Cipher Modes of Operation</h3>
+<h3 id="block-ciphers-and-block-cipher-modes-of-operation">Block Ciphers and Block-Cipher Modes of Operation<a class="headerlink" href="#block-ciphers-and-block-cipher-modes-of-operation" title="Permanent link">&para;</a></h3>
 
 
 
@@ -1237,8 +1327,37 @@ Mention that the above stream cipher has no ciphertext expansion, and need no IV
 
 
   
+    
+  
+  
+    
   
 
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="最后更新">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-11-13T05:07:54+00:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-11-13</span>
+  </span>
+
+    
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="创建日期">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-11-13T05:07:54+00:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-11-13</span>
+  </span>
+
+    
+    
+    
+  </aside>
 
 
 
@@ -1267,7 +1386,7 @@ Mention that the above stream cipher has no ciphertext expansion, and need no IV
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright2024 codevegitable(感觉好高级)
+      Copyright2024 codevegitable
     </div>
   
   
@@ -1286,6 +1405,14 @@ Mention that the above stream cipher has no ciphertext expansion, and need no IV
     
     <a href="https://github.com/codevegitable" target="_blank" rel="noopener" title="codevegitable" class="md-social__link">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="mailto:1057852998@qq.com" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l217.6 163.2c11.4 8.5 27 8.5 38.4 0l217.6-163.2c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48zM0 176v208c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V176L294.4 339.2a63.9 63.9 0 0 1-76.8 0z"/></svg>
     </a>
   
 </div>
@@ -1309,6 +1436,10 @@ Mention that the above stream cipher has no ciphertext expansion, and need no IV
             
 
 
+  
+    
+  
+
 
 
 
@@ -1317,6 +1448,19 @@ Mention that the above stream cipher has no ciphertext expansion, and need no IV
 <input class="md-toggle" type="checkbox" id="__settings" >
 <div class="md-consent__settings">
   <ul class="task-list">
+    
+      
+      
+        
+        
+      
+      <li class="task-list-item">
+        <label class="task-list-control">
+          <input type="checkbox" name="github" checked>
+          <span class="task-list-indicator"></span>
+          GitHub
+        </label>
+      </li>
     
   </ul>
 </div>
@@ -1340,14 +1484,18 @@ Mention that the above stream cipher has no ciphertext expansion, and need no IV
       </div>
       <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.path", "toc.follow", "toc.integrate", "navigation.top", "search.suggest", "search.highlight"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.path", "navigation.indexes", "toc.follow", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.code.annotate", "content.code.copy"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
       
-        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script>
+        <script src="../../js/timeago.min.js"></script>
       
-        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script>
+        <script src="../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      
+        <script src="../../termynal.js"></script>
       
     
   </body>

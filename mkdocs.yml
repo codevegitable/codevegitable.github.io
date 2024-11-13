@@ -1,5 +1,17 @@
 site_name: codevegitable's 笔记
 site_url: https://codevegitable.github.io
+repo_name: codevegitable/codevegitable.github.io
+repo_url: https://github.com/codevegitable/codevegitable.github.io
+nav:
+  - 主页:
+    - index.md
+  
+  - 课程笔记:
+    - blog/index.md
+    - 数据安全与密码学基础:
+      - cryption/index.md
+      - cryption/C2.md
+      - cryption/C3.md
 theme: 
   name: material
   palette: 
@@ -34,15 +46,22 @@ theme:
     - navigation.tabs.sticky
     - navigation.expand
     - navigation.path
+    - navigation.indexes
     - toc.follow
     - toc.integrate 
     - navigation.top
     - search.suggest
     - search.highlight
+    - content.code.annotate
+    - content.code.copy
 
 extra_css:
   - stylesheets/extra.css
   - https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css
+  - 'from_oi_wiki/css/extra.css?v=13'
+  - css/status.css
+  - css/neoteroi-mkdocs.css
+  # - https://unpkg.com/katex@0/dist/katex.min.css # 使用katex渲染，性能好效果差
 
 extra:
   generator: true
@@ -60,19 +79,88 @@ extra:
     - icon: fontawesome/brands/github
       link: "https://github.com/codevegitable"
       name: codevegitable
+    - icon: fontawesome/solid/envelope
+      link: mailto:1057852998@qq.com
 
-copyright: Copyright2024 codevegitable(感觉好高级)
+copyright: Copyright2024 codevegitable
 
 plugins:
-  - search
-  - blog
+  - search:
+      separator: '[\s\u200b\-]'
+      jieba_dict: dict.txt.big
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - statistics
+  - termynal:
+      title: ""
+      buttons: macos
+      prompt_literal_start:
+        - "$"
+        - ">"
+        - "%"
+
 
 markdown_extensions:
-  - pymdownx.superfences
+  - toc:
+      permalink: true # link for each title
+      slugify: !!python/name:pymdownx.slugs.uslugify
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - md_in_html
+  - neoteroi.cards
+  - neoteroi.timeline
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.betterem:
+      # smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets: # 允许将其他文件内容插入文件，语法是 --8<-- "filename.ext" 等，参见 https://facelessuser.github.io/pymdown-extensions/extensions/snippets/#snippets-notation
+      auto_append:
+        - includes/abbreviations.md
+      base_path: ["docs"]
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.superfences
   
 
 extra_javascript:
-  - https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js
-  - https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js
+  # - 'from_oi_wiki/js/extra.js'
+  # - js/mathjax.js # 支持数学公式，ref : https://squidfunk.github.io/mkdocs-material/reference/mathjax
+  # - https://polyfill.io/v3/polyfill.min.js?features=es6
+  # - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  # - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js # 支持表格排序
+  # - js/tablesort.js
+  # - javascripts/katex.js
+  # - https://unpkg.com/katex@0/dist/katex.min.js
+  # - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
