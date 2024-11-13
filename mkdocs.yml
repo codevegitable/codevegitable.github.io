@@ -112,8 +112,8 @@ markdown_extensions:
   - footnotes
   - tables
   - md_in_html
-  # - neoteroi.cards
-  # - neoteroi.timeline
+  - neoteroi.cards
+  - neoteroi.timeline
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
