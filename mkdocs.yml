@@ -1,5 +1,5 @@
 site_name: codevegitable's 笔记
-site_url: https://codevegitable.github.io
+site_url: https://codevegitable.github.io/
 # repo_name: codevegitable/codevegitable.github.io
 # repo_url: https://github.com/codevegitable/codevegitable.github.io
 nav:
@@ -65,7 +65,7 @@ extra_css:
 
 extra:
   generator: true
-  homepage: https://codevegitable.github.io
+  homepage: https://codevegitable.github.io/
   consent:
     title: Cookie consent
     description: We use cookies to recognize your repeated visits and preferences, as well
