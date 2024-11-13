@@ -60,7 +60,6 @@ extra_css:
 
 extra:
   generator: true
-  homepage: https://codevegitable.github.io/
   consent:
     title: Cookie consent
     description: We use cookies to recognize your repeated visits and preferences, as well
